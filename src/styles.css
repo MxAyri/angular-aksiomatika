@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: var(--mat-app-background-color); }
+app-table {
+    width: 100%;
+}
+viev-table {
+    width: 100%;
+}
+.select-table .mat-mdc-select-value-text {
+    font-size: 14px;
+}
+.select-table .mat-mdc-form-field-bottom-align {
+    height: 0;
+}
+.select-table .mat-mdc-form-field-infix {
+    padding: 14px 0 8px 0;
+}
+
+.select-table .mat-mdc-text-field-wrapper .mat-mdc-form-field-flex .mat-mdc-floating-label {
+    top: calc(var(--mat-form-field-container-height) / 2.6);
+}

@@ -1,0 +1,36 @@
+
+<h2 mat-dialog-title class="dialog-txt-cont-h3">Добавить элемент</h2>
+<mat-dialog-content class="modal-content">
+
+  <form class="add-form">
+  <mat-form-field class="example-full-width">
+      <mat-label>Введите название</mat-label>
+      <input required class="add-value-name" matInput name="name">
+  </mat-form-field>
+
+  <div class="date-cont"></div>
+    <mat-form-field class="example-full-width">
+        <mat-label>Дата выполнения</mat-label>
+        <input type="date" class="add-value-date" matInput name="dateComplete">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Время выполнения</mat-label>
+      <input type="time" class="add-value-time" matInput name="timeComplete">
+  </mat-form-field>
+  
+  <mat-form-field class="example-full-width">
+    <mat-label>Введите описание</mat-label>
+    <input class="add-value-description" matInput name="description">
+  </mat-form-field>
+  </form> 
+
+  <div class="dialog-txt-cont">
+    <p class="dialog-txt-cont-p"></p>
+  </div>
+  
+    
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button class="add-item" mat-button mat-dialog-close>Добавить</button>
+  <button mat-button mat-dialog-close>Закрыть</button>
+</mat-dialog-actions>

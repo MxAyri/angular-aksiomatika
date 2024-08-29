@@ -1,0 +1,48 @@
+.full-width-table {
+  width: 100%;
+}
+
+.add-form{ 
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.hide {
+  display: none;
+}
+
+.mat-elevation-z2{
+  min-height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: none;
+}
+
+.modal-content {
+  width: 500px;
+  height: 200px;
+}
+
+.add-btn {
+  background-color: transparent;
+}
+
+.mat-mdc-cell {
+  max-width: 100px;
+}
+
+.table-bottom-cont {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.dialog-txt-cont{
+  display: none;
+}
+
+.viev-edit {
+  display: none;
+}
